@@ -1,0 +1,14 @@
+echo $SHELL
+cd /tmp
+mkdir missing
+man touch
+touch semester
+vi semester
+./semester
+sh semester
+man chmod
+chmod 777 semester
+./semester
+cd
+touch last-modified.txt
+vi last-modified.txt
